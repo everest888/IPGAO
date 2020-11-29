@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: 'montserrat';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Thin';
+    src: url('fonts/HelveticaNeueCyr-Thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SpaceGrotesk-Regular';
+    src: url('fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+}
+
+header {
+    width: 1366px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-size: 72px;
+    font-family: 'SpaceGrotesk-Regular';
+    color: white;
+    width: max-content;
+    margin: 91px 226px 0 0;
+}
+span {
+    background: #1519FF;
+}
+main {
+    width: 1366px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+    width: 293px;
+    height: 293px;
+}
+h3 {
+    font-family: 'SpaceGrotesk-Regular';
+    font-size: 18px;
+    color: #000;
+}
+h5 {
+    font-family: 'SpaceGrotesk-Regular';
+    font-size: 16px;
+    font-weight:bold;
+    color: #000;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'HelveticaNeueCyr-Thin';
+    font-weight: 600;
+    color: #676767;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.one {
+    margin: 25px 0 0 49px;
+}
+.two {
+    margin: 27px 0 0 64px;
+}
+.three {
+    margin: 14px 0 0 81px;
+}
+.for {
+    margin: 13px 0 0 65px;
+}
+.text-blok {
+    line-height: 177%;
+}
+.blok {
+    width: 293px;
+    height: 293px;
+    margin: 20px 0 0 0;
+    background-position:center,center;
+}
+.info {
+    border-top: 2px solid #afafaf;
+    padding-left: 23px;
+}
+.img-down {
+    margin: 20px 0 0 0;
+    
+}
+
+
+
+
+@media (max-width: 780px) {
+    main {
+        justify-content: center;
+    }
+    .main {
+        display: block;
+    }
+    .down {
+        direction: rtl;
+        margin: 0;
+
+    }
+    header, main {
+        width: auto;
+    }
+    h1 {
+        font-size: 48px;
+        margin: 91px 0px 0 0;
+    }
+    .info-down {
+        text-align: left;
+        margin: 20px 0 0 0px;
+        padding-left: 25px;
+    }
+    .up {
+        margin: 20px 0 0 20px;
+    }
+    .down {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 420px) {
+    main {
+        margin: 0;
+        justify-content: space-between;
+    }
+    .main {
+        display: flex;
+    }
+    .blok {width: 273px;
+        height: auto;
+        margin-top: 50px;
+    }
+    .card {
+        display: flex;
+    }
+    .down {
+        direction: rtl;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 30px;
+        margin: 23px 0px 0 24px;
+        width: 300px;
+    }
+    .up {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+    div,section  {
+        width: auto;
+    }
+    img {
+        width: 271px;
+        
+    }
+
+    
+    
+  
+}
